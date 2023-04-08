@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+    <meta name="description" content="Главная">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Главная</title>
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#000000">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="images/fav.svg" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="root">
+          <div class="logo"><img width="210" height="54" src="images/logo.svg" alt="logo"></div>
+          <div class="burger"><span></span><span></span><span></span></div>
+          <nav class="nav">
+            <ul>
+              <li><a href="#">Розыгрыш</a></li>
+              <li><a href="#">Призы</a></li>
+              <li><a href="#">Товары</a></li>
+              <li><a href="#">Победители</a></li>
+              <li><a href="#">Вопросы</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="overlay"></div>
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="wrap">
+            <h1 class="title" data-text="В школу!">В школу!</h1>
+            <div class="holder"><span class="subtitle" data-text="с Владом">с Владом</span>
+              <div class="img"><img width="69" height="69" src="images/a4.svg" alt="intro-img"></div>
+            </div>
+            <h1 class="text">Участвуй в розыгрыше более 1000 призов</h1>
+          </div>
+          <div class="picture"><img width="500" height="500" src="images/intro.webp" alt="intro-img"></div>
+          <div class="wrapper">
+            <p class="intro-text">Период проведения акции 22.08.2022 – 02.10.2022</p>
+            <div class="img-pic"><img width="69" height="69" src="images/pic.svg" alt="intro-img"></div>
+          </div>
+        </div>
+        <div class="wing"><img width="357" height="277" src="images/wing.webp" alt="intro-img"></div>
+      </section>
+      <section class="slider">
+        <div class="container">
+          <div class="wrap">
+            <h2 class="title" data-text="Товары - спонсоры">Товары - спонсоры</h2>
+            <div class="img"><img width="184" height="136" src="images/text.webp" alt="slide-img"></div>
+          </div>
+          <div class="swiper goods-slider">
+            <div class="swiper-wrapper"><a class="swiper-slide" href="#">
+                      <div class="item">
+                        <div class="image"><img width="180" height="300" src="/images/next/img-1.webp" alt="slide-img">
+                          <p class="description">Описание товара в 2 или 3 строчки текста Описание товара в 2 или 3 строчки текста</p>
+                        </div>
+                      </div></a><a class="swiper-slide" href="#">
+                      <div class="item">
+                        <div class="image"><img width="180" height="300" src="/images/next/img-2.webp" alt="slide-img">
+                          <p class="description">Описание товара в 2 или 3 строчки текста</p>
+                        </div>
+                      </div></a><a class="swiper-slide" href="#">
+                      <div class="item">
+                        <div class="image"><img width="180" height="300" src="/images/next/img-3.webp" alt="slide-img">
+                          <p class="description">Описание товара в 2 или 3 строчки текста</p>
+                        </div>
+                      </div></a><a class="swiper-slide" href="#">
+                      <div class="item">
+                        <div class="image"><img width="180" height="300" src="/images/next/img-4.webp" alt="slide-img">
+                          <p class="description">Описание товара в 2 или 3 строчки текста</p>
+                        </div>
+                      </div></a><a class="swiper-slide" href="#">
+                      <div class="item">
+                        <div class="image"><img width="180" height="300" src="/images/next/img-5.webp" alt="slide-img">
+                          <p class="description">Описание товара в 2 или 3 строчки текста</p>
+                        </div>
+                      </div></a>
+            </div>
+          </div>
+          <div class="next">
+            <svg>
+              <use href="images/sprites.svg#arr"></use>
+            </svg>
+          </div>
+          <div class="prev">
+            <svg>
+              <use href="images/sprites.svg#arr"></use>
+            </svg>
+          </div>
+          <button class="btn">Смотреть все товары</button>
+          <div class="left-img"><img width="148" height="188" src="images/plane.webp" alt="slider-img"></div>
+          <div class="right-img"><img width="357" height="277" src="images/planes.svg" alt="slider-img"></div>
+        </div>
+      </section>
+    </main>
+    <script src="js/libs/svgxuse.min.js"></script>
+    <script src="js/libs/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
