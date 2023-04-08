@@ -630,7 +630,7 @@ main{
   background-color:#EF8321; }
 
 ::-webkit-scrollbar-track{
-  background-color:#2C2C2C; }
+  background-color:#552D85; }
 
 @font-face{
   font-family:'Muller';
@@ -934,8 +934,7 @@ main{
 @media screen and (max-width: 1023px){
       .intro .picture img{
         max-height:340px;
-        width:-webkit-fit-content;
-        width:fit-content;
+        width:auto;
         margin:0 auto; } }
 
 @media screen and (min-width: 1024px){
